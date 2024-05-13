@@ -63,7 +63,7 @@ input, button, select {
 
 .container {
   padding: 1rem;
-  margin: 1.5rem auto 0rem;
+  margin: 0 auto 0rem;
   max-width: 40rem;
 }
 
@@ -236,5 +236,17 @@ footer {
 @media screen and (min-width: 85em) {
   footer {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .hero {
+    text-align: left;
+    margin-inline: 8rem 10rem;
+    text-align: left;
+    margin-inline: 8rem 10rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
   }
 }
